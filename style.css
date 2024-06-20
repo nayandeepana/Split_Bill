@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	height: 20vh;
+	background-color: #FABD4C;
+	align-items: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+.main{
+	background-color: white;
+	height: 80vh;
+	position: relative;
+	border-radius: 50px;
+	bottom: 50px;
+}
+.first_container{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #F8F8FA;
+	border-radius: 50px ;
+	margin: 0 10px;
+}
+
+.date{
+	margin: 3vh;
+	line-height: 3vh;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.second_container{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Josefin Sans", sans-serif;
+
+	
+}
+.date_card{
+	margin-top: 3vh;
+	padding: 15px;
+	cursor: pointer;
+	border: 1px black solid;
+	text-align: center;
+	border-radius: 1vh;
+	border-color: darkgray;
+}
+.date_card:hover{
+	background-color:#FABD4C;
+	color: white;
+	border: 0;
+}
+
+.main_hr{
+	border: 1px black solid;
+	margin:15px 0;
+}
+h3{
+	margin: 25px 25px 40px 25px;
+	font-family: "Josefin Sans", sans-serif;
+}
+.split_card{
+	display: flex;
+	justify-content: space-around;
+	font-family: "Josefin Sans", sans-serif;
+}
+.split_hr{
+	margin: 20px 15px;
+}
+
+.pay_button{
+	width: 10vh;
+	height: 4vh;
+	border-radius: 2vh;
+	color: #65D3FF;
+	border: 0;
+	cursor: pointer;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2dvh;
+}
+.pay_button:hover{
+	background-color: #65D3FF;
+	color: white;
+
+}
+.footer{
+	margin-top: 10dvh;
+	color: grey;
+}
